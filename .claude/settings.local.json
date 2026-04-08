@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:\\\\Users\\\\isai.martinez\\\\Documents\\\\sistema-aduanal\\\\lib\\\\supabase\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\isai.martinez\\\\Documents\\\\sistema-aduanal\\\\supabase\\\\migrations\")",
+      "Bash(xargs grep:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx next:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(taskkill /PID 18620 /F)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001)",
+      "Bash(cmd /c \"taskkill /PID 18620 /F\")",
+      "Bash(curl:*)",
+      "Bash(cmd:*)",
+      "Bash(netstat -ano)",
+      "Bash(powershell:*)"
+    ]
+  }
+}
